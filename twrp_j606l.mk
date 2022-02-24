@@ -29,10 +29,10 @@ $(call inherit-product, device/lenovo/j606l/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := J606L
+PRODUCT_RELEASE_NAME := j606l
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := J606L
+PRODUCT_DEVICE := j606l
 PRODUCT_NAME := twrp_j606l
 PRODUCT_BRAND := lenovo
 PRODUCT_MODEL := Lenovo Tab P11
