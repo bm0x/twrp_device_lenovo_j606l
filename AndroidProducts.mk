@@ -17,9 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_guamp.mk
+     $(LOCAL_DIR)/twrp_j606l.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_guamp-user \
-    twrp_guamp-userdebug \
-    twrp_guamp-eng
+    twrp_j606l-user \
+    twrp_j606l-userdebug \
+    twrp_j606l-eng
