@@ -28,7 +28,7 @@ PRODUCT_PLATFORM := bengal
 # A/B support
 AB_OTA_UPDATER := true
 
-LOCAL_PATH := device/motorola/guamp
+LOCAL_PATH := device/lenovo/j606l
 
 # A/B
 AB_OTA_PARTITIONS += \
