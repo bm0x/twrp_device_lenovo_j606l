@@ -26,13 +26,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/lenovo/J606L/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/twrp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := J606L
 PRODUCT_NAME := twrp_J606L
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo
+PRODUCT_MODEL := Lenovo Tab P11 TB-J606L
 PRODUCT_MANUFACTURER := lenovo
 PRODUCT_RELEASE_NAME := Lenovo Lenovo
