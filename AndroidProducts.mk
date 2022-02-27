@@ -17,4 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_J606L.mk
+    $(LOCAL_DIR)/twrp_j606l.mk
+
+COMMON_LUNCH_CHOICES := twrp_j606l-eng
