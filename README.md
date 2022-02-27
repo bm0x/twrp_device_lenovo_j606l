@@ -1,36 +1,20 @@
-
-![Redmi 9T](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-9-power-0.jpg "Redmi 9T")
+![Tab P11](https://i.blogs.es/25b1a2/lenovo-tab-p11/1366_2000.jpg "Tab P11")
 =====================================================
 Basic   | Specs
 -------:|:-------------------------
 CPU     | Qualcomm SM6115 Snapdragon 662 (11 nm)
 GPU     | Adreno 610
-Memory  | 4 GB
+Variants| Wi-Fi / Wi-Fi - LTE 4G
+Memory  | 4 GB / 6 GB
 Storage | 64GB / 128GB
-Os      | Android 10, MIUI 12
-Battery | 6000 mAh (non-removable)
-Dimensions | 162.3 x 77.3 x 9.6 mm (6.39 x 3.04 x 0.38 in)
-Display |  6.53 inches 1080 x 2340 pixels
-Rear Camera  | 48 MP, f/1.8, (wide), 1/2.0", 0.8µm, PDAF 2 MP, f/2.4, (macro) 2 MP, f/2.4, (depth)
-Front Camera | 8 MP, f/2.1, (wide), 1/4.0", 1.12µm
-Release Date | 2021, January 08
+Os      | Android 10
+Battery | 7700 mAh (non-removable)
+Display |  11" (2000 x 1200px) IPS LCD
+Release Date | 2020, August 24
 
 
 ## Working :
 
-- ADB
-
-- Decryption userdata with eu roms
-
-- Screen brightness settings
-
-- Correct screenshot color
-
-- MTP
-
-- Sideload
-
-- Vibration
 
 ## To compile
 
@@ -38,6 +22,6 @@ Release Date | 2021, January 08
 
 - export ALLOW_MISSING_DEPENDENCIES=true
 
-- lunch 
+- lunch twrp_j606l-eng
 
 - make -jX recoveryimage
