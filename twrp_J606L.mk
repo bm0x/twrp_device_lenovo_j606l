@@ -24,6 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from J606L device
 $(call inherit-product, device/lenovo/J606L/device.mk)
+PRODUCT_RELEASE_NAME := J606L
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_PACKAGES += fastbootd
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -35,4 +38,7 @@ PRODUCT_NAME := twrp_J606L
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo Tab P11 TB-J606L
 PRODUCT_MANUFACTURER := lenovo
-PRODUCT_RELEASE_NAME := Lenovo Lenovo
+
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
