@@ -94,3 +94,5 @@ on property:vendor.sys.listeners.registered=true
     start keymaster-4-0
     start gatekeeper-1-0
     start servicemanager
+
+import /init.recovery.qcom_decrypt.rc

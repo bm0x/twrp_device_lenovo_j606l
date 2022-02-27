@@ -16,29 +16,22 @@
 
 # Release name
 DEVICE_PATH := device/lenovo/j606l
-PRODUCT_RELEASE_NAME := Lenovo Tab P11 TB-J606L
+PRODUCT_RELEASE_NAME := j606l
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += fastbootd
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-
-# Inherit Telephony packages
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit language packages
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+# Inherit from hardware-specific part of the product configuration
+$(call inherit-product, device/lenovo/j606l/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := J606L
+PRODUCT_DEVICE := j606l
 PRODUCT_NAME := twrp_j606l
-PRODUCT_BRAND := Lenovo
+PRODUCT_BRAND := lenovo
 PRODUCT_MODEL := Lenovo Tab P11 TB-J606L
-PRODUCT_MANUFACTURER := Lenovo
+PRODUCT_MANUFACTURER := lenovo
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
