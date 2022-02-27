@@ -17,6 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_j606l.mk
+    $(LOCAL_DIR)/twrp_J606L.mk
 
-COMMON_LUNCH_CHOICES := twrp_j606l-eng
+COMMON_LUNCH_CHOICES := twrp_J606L-eng
