@@ -31,7 +31,7 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := J606L
-PRODUCT_NAME := omni_J606L
+PRODUCT_NAME := twrp_J606L
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo
 PRODUCT_MANUFACTURER := lenovo
